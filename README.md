@@ -1,10 +1,10 @@
-# THC SOCIAL DASH
+# RBBT SOCIAL DASH
 
 Um dashboard moderno e futurista para equipes de marketing e C-level, desenvolvido com React e TailwindCSS.
 
 ## Visão Geral
 
-THC SOCIAL DASH é um dashboard de performance com estética futurista em dark-mode, semelhante a um sistema operacional técnico. O projeto foi desenvolvido seguindo as especificações detalhadas para criar uma interface moderna e funcional para visualização de métricas de marketing digital.
+RBBT SOCIAL DASH é um dashboard de performance com estética futurista em dark-mode, semelhante a um sistema operacional técnico. O projeto foi desenvolvido seguindo as especificações detalhadas para criar uma interface moderna e funcional para visualização de métricas de marketing digital.
 
 ## Funcionalidades Implementadas
 
@@ -113,4 +113,4 @@ Para continuar o desenvolvimento deste projeto, siga estas diretrizes:
   }
   ```
 
-Estas instruções fornecem um roteiro claro para expandir o THC SOCIAL DASH, mantendo a coerência com o design e arquitetura já implementados.
+Estas instruções fornecem um roteiro claro para expandir o RBBT SOCIAL DASH, mantendo a coerência com o design e arquitetura já implementados.

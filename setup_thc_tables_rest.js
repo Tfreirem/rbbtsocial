@@ -32,12 +32,12 @@ async function executeSQL(sql) {
   return await response.json();
 }
 
-async function setupTHCTables() {
+async function setupRBBTTables() {
   try {
-    console.log('Starting THC tables setup...');
+    console.log('Starting RBBT tables setup...');
 
     // Read the schema file
-    const schemaSQL = fs.readFileSync('./thc_schema.sql', 'utf8');
+    const schemaSQL = fs.readFileSync('./rbbt_schema.sql', 'utf8');
 
     // Split the SQL into individual statements and clean them
     const statements = schemaSQL
@@ -78,9 +78,9 @@ async function setupTHCTables() {
       await new Promise(resolve => setTimeout(resolve, 100));
     }
 
-    console.log('THC tables setup completed successfully!');
+    console.log('RBBT tables setup completed successfully!');
   } catch (error) {
-    console.error('Error setting up THC tables:', error);
+    console.error('Error setting up RBBT tables:', error);
     process.exit(1);
   }
 }
@@ -88,7 +88,7 @@ async function setupTHCTables() {
 // Main execution
 async function main() {
   try {
-    await setupTHCTables();
+    await setupRBBTTables();
   } catch (error) {
     console.error('Setup failed:', error);
     process.exit(1);
