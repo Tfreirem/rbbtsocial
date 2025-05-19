@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .card {
+    @apply bg-[#111111] rounded-md p-4;
+  }
+  
+  .sidebar-icon {
+    @apply p-1 hover:text-white transition-all duration-200;
+  }
+  
+  .tab {
+    @apply px-4 py-2 hover:text-white transition-all duration-200 cursor-pointer text-xs;
+  }
+  
+  .tab-active {
+    @apply border-b border-white text-white;
+  }
+}
